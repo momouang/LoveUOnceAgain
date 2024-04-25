@@ -6,7 +6,7 @@ public class AnimatorTrigger : MonoBehaviour
 {
     public Animator[] anim;
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {

@@ -1475,7 +1475,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
@@ -2462,7 +2462,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
@@ -3149,6 +3149,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6228745009094218485, guid: 7e1351af658584d0a8ab13d787ba67f0,
         type: 3}
+      propertyPath: isDinoplayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6228745009094218485, guid: 7e1351af658584d0a8ab13d787ba67f0,
+        type: 3}
       propertyPath: isControllable
       value: 1
       objectReference: {fileID: 0}
@@ -3164,8 +3169,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8170775717931120313, guid: 7e1351af658584d0a8ab13d787ba67f0,
         type: 3}
+      propertyPath: m_Height
+      value: 5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170775717931120313, guid: 7e1351af658584d0a8ab13d787ba67f0,
+        type: 3}
       propertyPath: m_Radius
-      value: 3.7
+      value: 2.15
       objectReference: {fileID: 0}
     - target: {fileID: 8170775717931120313, guid: 7e1351af658584d0a8ab13d787ba67f0,
         type: 3}
@@ -3328,7 +3338,7 @@ Camera:
   far clip plane: 1000
   field of view: 60.000004
   orthographic: 1
-  orthographic size: 40
+  orthographic size: 31.1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4386,7 +4396,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
@@ -4560,7 +4570,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
@@ -4850,7 +4860,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
@@ -4928,7 +4938,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
@@ -5820,7 +5830,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1639633678}
   m_Lens:
     FieldOfView: 60.000004
-    OrthographicSize: 40
+    OrthographicSize: 31.1
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -5977,7 +5987,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
@@ -6787,7 +6797,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
@@ -7422,7 +7432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1600523014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7495,7 +7505,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
@@ -9269,7 +9279,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
@@ -9722,7 +9732,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 30, y: 19.048632, z: 5}
   m_Center: {x: -7.3777374e-16, y: 0.14077552, z: 0}
