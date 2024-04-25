@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4922090683737015970}
   - component: {fileID: 8732565299219776403}
   - component: {fileID: 3925375491560326712}
+  - component: {fileID: 4150084449797947305}
   m_Layer: 8
   m_Name: Cave_Panel
   m_TagString: Untagged
@@ -79,13 +80,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4635805879146273021}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 339650b587f4049fca93063e4dd3be72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   onXAxis: 0
   onYAxis: 1
+  lineRenderer: {fileID: 0}
+--- !u!114 &4150084449797947305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4635805879146273021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6b16197c9fbf3e4b883a7dde177b37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveAxis: 1
+  lineRenderer: {fileID: 0}
+  MoveLimit: {x: -72.4, y: -20.4}
 --- !u!1 &6055304347160470812
 GameObject:
   m_ObjectHideFlags: 0
