@@ -12,8 +12,13 @@ public class Panel: MonoBehaviour
     float currentPosY;
     float currentPosX;
 
+    private void FixedUpdate()
+    {
+        //UnusedMoveMethod();
+    }
 
-    private void Update()
+
+    private void UnusedMoveMethod()
     {
         currentPosY = lineRenderer.transform.position.y;
         currentPosX = lineRenderer.transform.position.x;
@@ -34,8 +39,7 @@ public class Panel: MonoBehaviour
                 currentPosX = lineRenderer.GetPosition(2).x;
             }
         }
-
-        if (onYAxis)
+        else if (onYAxis)
         {
             transform.position = new Vector2(currentPosX, transform.position.y);
 
