@@ -103,10 +103,13 @@ public class PlayerMovement : MonoBehaviour
             {
                 anim.SetFloat("posX", 1f);
             }
-            if (moveDirection.x == 0 && moveDirection.y == 0)
+            if (moveDirection.y == 0)
+            {               
+                anim.SetFloat("posY", 0f);
+            }
+            if (moveDirection.x == 0)
             {
                 anim.SetFloat("posX", 0f);
-                anim.SetFloat("posY", 0f);
             }
         }
     }
