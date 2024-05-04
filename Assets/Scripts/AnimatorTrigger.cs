@@ -11,6 +11,7 @@ public class AnimatorTrigger : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             anim[0].SetTrigger("playAnim");
+            Debug.Log("triggered");
         }
     }
 }
