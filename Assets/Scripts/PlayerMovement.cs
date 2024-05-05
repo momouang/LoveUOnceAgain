@@ -135,7 +135,7 @@ public class PlayerMovement : MonoBehaviour
                     break;
 
             }
-        }    
+        }
     }
 
     public void OnTriggerEnter(Collider other)
@@ -152,6 +152,13 @@ public class PlayerMovement : MonoBehaviour
         isControllable = controlState;
     }
 
+    public void ExtractParent()
+    {
+        Vector3 p = transform.position;
+        transform.SetParent(null);
+
+        transform.position = p;
+    }
     
 
 }

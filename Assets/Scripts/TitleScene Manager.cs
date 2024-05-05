@@ -7,7 +7,7 @@ public class TitleSceneManager : MonoBehaviour
 {
     public PlayableDirector director;
 
-    public bool isPlayed = false;
+    public bool isPlayed;
 
 
     private void OnTriggerEnter(Collider other)
