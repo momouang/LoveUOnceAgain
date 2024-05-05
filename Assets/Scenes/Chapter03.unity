@@ -2864,7 +2864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &365565612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2906,7 +2906,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365565611}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2958,8 +2958,8 @@ Transform:
   m_GameObject: {fileID: 365565611}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 223.3, y: 69.2, z: -6.227517}
-  m_LocalScale: {x: 15.182747, y: 15.182747, z: 15.182747}
+  m_LocalPosition: {x: 221.5937, y: 74.0086, z: 0}
+  m_LocalScale: {x: 18.595829, y: 58.30596, z: 15.182747}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -7666,7 +7666,7 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
   MaxDistance: 155.06653
   Pan2D: 0
