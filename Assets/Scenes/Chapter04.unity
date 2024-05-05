@@ -15003,7 +15003,7 @@ PrefabInstance:
     - target: {fileID: 6361048103266433081, guid: 44fc2a29924f24056a282d0a9bd039db,
         type: 3}
       propertyPath: isLastScene
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7588782217835206107, guid: 44fc2a29924f24056a282d0a9bd039db,
         type: 3}
